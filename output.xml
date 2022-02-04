@@ -1,0 +1,1373 @@
+<tagset>
+   <image>
+      <imageName>img/14_03.jpg</imageName>
+      <Resolution x="1280" y="880" />
+      <taggedRectangles>
+         <taggedRectangle height="75" width="236" x="375" y="253">
+            <tag>LIVING</tag>
+         </taggedRectangle>
+         <taggedRectangle height="76" width="175" x="639" y="272">
+            <tag>ROOM</tag>
+         </taggedRectangle>
+         <taggedRectangle height="87" width="281" x="839" y="283">
+            <tag>THEATERS</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/14_04.jpg</imageName>
+      <Resolution x="1276" y="884" />
+      <taggedRectangles>
+         <taggedRectangle height="64" width="366" x="571" y="344">
+            <tag>INSURANCE</tag>
+         </taggedRectangle>
+         <taggedRectangle height="84" width="354" x="180" y="310">
+            <tag>STANDARD</tag>
+         </taggedRectangle>
+         <taggedRectangle height="64" width="229" x="973" y="359">
+            <tag>CENTER</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/06_08.jpg</imageName>
+      <Resolution x="1680" y="1050" />
+      <taggedRectangles>
+         <taggedRectangle height="64" width="171" x="756" y="410">
+            <tag>ANTIQUE</tag>
+         </taggedRectangle>
+         <taggedRectangle height="54" width="113" x="591" y="416">
+            <tag>LULA</tag>
+         </taggedRectangle>
+         <taggedRectangle height="50" width="116" x="927" y="420">
+            <tag>MALL</tag>
+         </taggedRectangle>
+         <taggedRectangle height="35" width="87" x="1000" y="551">
+            <tag>LULA</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/00_12.jpg</imageName>
+      <Resolution x="1024" y="768" />
+      <taggedRectangles>
+         <taggedRectangle height="159" width="673" x="176" y="292">
+            <tag>SUBWAY</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/15_15.jpg</imageName>
+      <Resolution x="1024" y="768" />
+      <taggedRectangles>
+         <taggedRectangle height="61" width="407" x="482" y="501">
+            <tag>CHOCOLATE</tag>
+         </taggedRectangle>
+         <taggedRectangle height="98" width="731" x="177" y="354">
+            <tag>GHIRARDELLI</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/04_04.jpg</imageName>
+      <Resolution x="1280" y="1024" />
+      <taggedRectangles>
+         <taggedRectangle height="55" width="175" x="506" y="494">
+            <tag>MASTER</tag>
+         </taggedRectangle>
+         <taggedRectangle height="50" width="120" x="680" y="492">
+            <tag>NAILS</tag>
+         </taggedRectangle>
+         <taggedRectangle height="27" width="71" x="1032" y="622">
+            <tag>GLENOAK</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/12_07.jpg</imageName>
+      <Resolution x="1024" y="768" />
+      <taggedRectangles>
+         <taggedRectangle height="55" width="242" x="267" y="321">
+            <tag>WINDSOR</tag>
+         </taggedRectangle>
+         <taggedRectangle height="55" width="100" x="166" y="324">
+            <tag>THE</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/06_11.jpg</imageName>
+      <Resolution x="1680" y="1050" />
+      <taggedRectangles>
+         <taggedRectangle height="124" width="682" x="365" y="212">
+            <tag>BANGKOK</tag>
+         </taggedRectangle>
+         <taggedRectangle height="104" width="192" x="1050" y="234">
+            <tag>INN</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/08_16.jpg</imageName>
+      <Resolution x="1280" y="882" />
+      <taggedRectangles>
+         <taggedRectangle height="41" width="145" x="823" y="371">
+            <tag>ALDEN</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/05_12.jpg</imageName>
+      <Resolution x="1278" y="878" />
+      <taggedRectangles>
+         <taggedRectangle height="41" width="92" x="205" y="313">
+            <tag>MAX</tag>
+         </taggedRectangle>
+         <taggedRectangle height="52" width="117" x="333" y="315">
+            <tag>TOWING</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/00_08.jpg</imageName>
+      <Resolution x="1024" y="768" />
+      <taggedRectangles>
+         <taggedRectangle height="49" width="162" x="429" y="265">
+            <tag>MARBLE</tag>
+         </taggedRectangle>
+         <taggedRectangle height="40" width="118" x="598" y="274">
+            <tag>YARD</tag>
+         </taggedRectangle>
+         <taggedRectangle height="51" width="183" x="422" y="338">
+            <tag>ORION</tag>
+         </taggedRectangle>
+         <taggedRectangle height="53" width="107" x="612" y="339">
+            <tag>TILE</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/00_01.jpg</imageName>
+      <Resolution x="1024" y="768" />
+      <taggedRectangles>
+         <taggedRectangle height="35" width="99" x="416" y="437">
+            <tag>ASTORIA</tag>
+         </taggedRectangle>
+         <taggedRectangle height="38" width="82" x="536" y="388">
+            <tag>BEST</tag>
+         </taggedRectangle>
+         <taggedRectangle height="40" width="55" x="516" y="428">
+            <tag>INN</tag>
+         </taggedRectangle>
+         <taggedRectangle height="31" width="84" x="594" y="428">
+            <tag>SUITES</tag>
+         </taggedRectangle>
+         <taggedRectangle height="40" width="112" x="623" y="379">
+            <tag>VALUE</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/01_10.jpg</imageName>
+      <Resolution x="1280" y="800" />
+      <taggedRectangles>
+         <taggedRectangle height="136" width="497" x="270" y="207">
+            <tag>PAYLESS</tag>
+         </taggedRectangle>
+         <taggedRectangle height="126" width="338" x="267" y="352">
+            <tag>SHOE</tag>
+         </taggedRectangle>
+         <taggedRectangle height="128" width="467" x="600" y="349">
+            <tag>SOURCE</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/03_19.jpg</imageName>
+      <Resolution x="1920" y="898" />
+      <taggedRectangles>
+         <taggedRectangle height="66" width="150" x="1067" y="201">
+            <tag>MOUNTS</tag>
+         </taggedRectangle>
+         <taggedRectangle height="67" width="129" x="951" y="198">
+            <tag>ROCKY</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/00_09.jpg</imageName>
+      <Resolution x="1024" y="768" />
+      <taggedRectangles>
+         <taggedRectangle height="80" width="356" x="251" y="332">
+            <tag>GOODWILL</tag>
+         </taggedRectangle>
+         <taggedRectangle height="25" width="68" x="160" y="376">
+            <tag>GOODWILL</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/16_19.jpg</imageName>
+      <Resolution x="1280" y="800" />
+      <taggedRectangles>
+         <taggedRectangle height="300" width="736" x="178" y="147">
+            <tag>AMOEBA</tag>
+         </taggedRectangle>
+         <taggedRectangle height="173" width="520" x="484" y="366">
+            <tag>MUSIC</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/02_19.jpg</imageName>
+      <Resolution x="1366" y="768" />
+      <taggedRectangles>
+         <taggedRectangle height="58" width="240" x="516" y="398">
+            <tag>ARCADE</tag>
+         </taggedRectangle>
+         <taggedRectangle height="62" width="216" x="506" y="338">
+            <tag>BROWN</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/12_11.jpg</imageName>
+      <Resolution x="1024" y="768" />
+      <taggedRectangles>
+         <taggedRectangle height="66" width="184" x="308" y="417">
+            <tag>BELLA</tag>
+         </taggedRectangle>
+         <taggedRectangle height="55" width="148" x="504" y="437">
+            <tag>VISTA</tag>
+         </taggedRectangle>
+         <taggedRectangle height="51" width="77" x="667" y="449">
+            <tag>INC</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/00_14.jpg</imageName>
+      <Resolution x="1024" y="768" />
+      <taggedRectangles>
+         <taggedRectangle height="80" width="163" x="571" y="397">
+            <tag>HOUSE</tag>
+         </taggedRectangle>
+         <taggedRectangle height="69" width="151" x="567" y="328">
+            <tag>ORIGINAL</tag>
+         </taggedRectangle>
+         <taggedRectangle height="87" width="245" x="318" y="374">
+            <tag>PANCAKE</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/09_06.jpg</imageName>
+      <Resolution x="1280" y="800" />
+      <taggedRectangles>
+         <taggedRectangle height="41" width="119" x="481" y="353">
+            <tag>LIVING</tag>
+         </taggedRectangle>
+         <taggedRectangle height="33" width="131" x="706" y="352">
+            <tag>LOUNGE</tag>
+         </taggedRectangle>
+         <taggedRectangle height="34" width="103" x="600" y="351">
+            <tag>ROOM</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/02_04.jpg</imageName>
+      <Resolution x="1280" y="1024" />
+      <taggedRectangles>
+         <taggedRectangle height="52" width="139" x="484" y="425">
+            <tag>CAMDEN</tag>
+         </taggedRectangle>
+         <taggedRectangle height="44" width="67" x="634" y="431">
+            <tag>PUB</tag>
+         </taggedRectangle>
+         <taggedRectangle height="61" width="122" x="50" y="339">
+            <tag>PUB</tag>
+         </taggedRectangle>
+         <taggedRectangle height="65" width="143" x="949" y="353">
+            <tag>CAMDEN</tag>
+         </taggedRectangle>
+         <taggedRectangle height="41" width="71" x="546" y="664">
+            <tag>CAMDEN</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/03_10.jpg</imageName>
+      <Resolution x="1920" y="904" />
+      <taggedRectangles>
+         <taggedRectangle height="169" width="434" x="611" y="313">
+            <tag>MACY</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/18_12.jpg</imageName>
+      <Resolution x="1280" y="800" />
+      <taggedRectangles>
+         <taggedRectangle height="67" width="144" x="548" y="352">
+            <tag>REI</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/15_02.jpg</imageName>
+      <Resolution x="1024" y="768" />
+      <taggedRectangles>
+         <taggedRectangle height="157" width="372" x="504" y="355">
+            <tag>HOUSE</tag>
+         </taggedRectangle>
+         <taggedRectangle height="140" width="269" x="227" y="348">
+            <tag>YARD</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/14_16.jpg</imageName>
+      <Resolution x="1278" y="884" />
+      <taggedRectangles>
+         <taggedRectangle height="68" width="371" x="519" y="242">
+            <tag>EVERYDAY</tag>
+         </taggedRectangle>
+         <taggedRectangle height="65" width="161" x="911" y="264">
+            <tag>MUSIC</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/03_08.jpg</imageName>
+      <Resolution x="1918" y="904" />
+      <taggedRectangles>
+         <taggedRectangle height="83" width="462" x="633" y="318">
+            <tag>TIMBERLINE</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/06_05.jpg</imageName>
+      <Resolution x="1680" y="1050" />
+      <taggedRectangles>
+         <taggedRectangle height="106" width="230" x="511" y="190">
+            <tag>MAI</tag>
+         </taggedRectangle>
+         <taggedRectangle height="67" width="257" x="867" y="224">
+            <tag>RESTAURANT</tag>
+         </taggedRectangle>
+         <taggedRectangle height="47" width="325" x="693" y="292">
+            <tag>VIETNAMESE</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/01_02.jpg</imageName>
+      <Resolution x="1280" y="800" />
+      <taggedRectangles>
+         <taggedRectangle height="58" width="108" x="567" y="316">
+            <tag>SOL</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/09_04.jpg</imageName>
+      <Resolution x="1280" y="800" />
+      <taggedRectangles>
+         <taggedRectangle height="67" width="181" x="615" y="310">
+            <tag>SHAKE</tag>
+         </taggedRectangle>
+         <taggedRectangle height="60" width="161" x="413" y="314">
+            <tag>STEAK</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/14_15.jpg</imageName>
+      <Resolution x="1280" y="876" />
+      <taggedRectangles>
+         <taggedRectangle height="61" width="284" x="750" y="340">
+            <tag>GENIES</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/16_09.jpg</imageName>
+      <Resolution x="1280" y="800" />
+      <taggedRectangles>
+         <taggedRectangle height="62" width="178" x="523" y="393">
+            <tag>SING</tag>
+         </taggedRectangle>
+         <taggedRectangle height="53" width="167" x="525" y="349">
+            <tag>YANK</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/11_14.jpg</imageName>
+      <Resolution x="1280" y="800" />
+      <taggedRectangles>
+         <taggedRectangle height="83" width="415" x="306" y="313">
+            <tag>DETROIT</tag>
+         </taggedRectangle>
+         <taggedRectangle height="92" width="267" x="731" y="299">
+            <tag>JOES</tag>
+         </taggedRectangle>
+         <taggedRectangle height="47" width="168" x="312" y="405">
+            <tag>ORIGINAL</tag>
+         </taggedRectangle>
+         <taggedRectangle height="41" width="124" x="492" y="406">
+            <tag>CONEY</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/17_04.jpg</imageName>
+      <Resolution x="1280" y="880" />
+      <taggedRectangles>
+         <taggedRectangle height="44" width="153" x="726" y="359">
+            <tag>GOMBEI</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/04_03.jpg</imageName>
+      <Resolution x="1280" y="1024" />
+      <taggedRectangles>
+         <taggedRectangle height="74" width="278" x="531" y="481">
+            <tag>BARBER</tag>
+         </taggedRectangle>
+         <taggedRectangle height="47" width="227" x="553" y="442">
+            <tag>MODERN</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/08_01.jpg</imageName>
+      <Resolution x="1280" y="882" />
+      <taggedRectangles>
+         <taggedRectangle height="78" width="416" x="542" y="312">
+            <tag>DEPARTMENT</tag>
+         </taggedRectangle>
+         <taggedRectangle height="39" width="195" x="133" y="382">
+            <tag>HOUSTON</tag>
+         </taggedRectangle>
+         <taggedRectangle height="50" width="186" x="342" y="357">
+            <tag>POLICE</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/08_06.jpg</imageName>
+      <Resolution x="1278" y="880" />
+      <taggedRectangles>
+         <taggedRectangle height="47" width="123" x="755" y="336">
+            <tag>CONEY</tag>
+         </taggedRectangle>
+         <taggedRectangle height="50" width="144" x="883" y="334">
+            <tag>ISLAND</tag>
+         </taggedRectangle>
+         <taggedRectangle height="50" width="133" x="616" y="337">
+            <tag>JAMES</tag>
+         </taggedRectangle>
+         <taggedRectangle height="52" width="163" x="32" y="338">
+            <tag>SIGNS</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/06_04.jpg</imageName>
+      <Resolution x="1680" y="1050" />
+      <taggedRectangles>
+         <taggedRectangle height="68" width="188" x="569" y="409">
+            <tag>SAVE</tag>
+         </taggedRectangle>
+         <taggedRectangle height="62" width="142" x="792" y="409">
+            <tag>WAY</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/09_02.jpg</imageName>
+      <Resolution x="1280" y="800" />
+      <taggedRectangles>
+         <taggedRectangle height="47" width="62" x="634" y="371">
+            <tag>INN</tag>
+         </taggedRectangle>
+         <taggedRectangle height="82" width="123" x="481" y="54">
+            <tag>DAYS</tag>
+         </taggedRectangle>
+         <taggedRectangle height="45" width="90" x="542" y="368">
+            <tag>DAYS</tag>
+         </taggedRectangle>
+         <taggedRectangle height="60" width="67" x="619" y="110">
+            <tag>INN</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/09_09.jpg</imageName>
+      <Resolution x="1280" y="800" />
+      <taggedRectangles>
+         <taggedRectangle height="21" width="43" x="596" y="405">
+            <tag>NIGHT</tag>
+         </taggedRectangle>
+         <taggedRectangle height="45" width="150" x="587" y="368">
+            <tag>THERAPY</tag>
+         </taggedRectangle>
+         <taggedRectangle height="17" width="51" x="679" y="410">
+            <tag>LOUNGE</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/17_19.jpg</imageName>
+      <Resolution x="1024" y="768" />
+      <taggedRectangles>
+         <taggedRectangle height="44" width="98" x="427" y="497">
+            <tag>ANNO</tag>
+         </taggedRectangle>
+         <taggedRectangle height="43" width="112" x="530" y="495">
+            <tag>DOMINI</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/16_00.jpg</imageName>
+      <Resolution x="1280" y="800" />
+      <taggedRectangles>
+         <taggedRectangle height="73" width="389" x="549" y="446">
+            <tag>FRANCISCO</tag>
+         </taggedRectangle>
+         <taggedRectangle height="75" width="375" x="486" y="213">
+            <tag>GRAND</tag>
+         </taggedRectangle>
+         <taggedRectangle height="189" width="683" x="325" y="263">
+            <tag>HYATT</tag>
+         </taggedRectangle>
+         <taggedRectangle height="41" width="130" x="403" y="444">
+            <tag>SAN</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/13_05.jpg</imageName>
+      <Resolution x="1024" y="768" />
+      <taggedRectangles>
+         <taggedRectangle height="27" width="102" x="469" y="294">
+            <tag>PORTAL</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/07_14.jpg</imageName>
+      <Resolution x="1280" y="1024" />
+      <taggedRectangles>
+         <taggedRectangle height="44" width="149" x="228" y="322">
+            <tag>BROWN</tag>
+         </taggedRectangle>
+         <taggedRectangle height="47" width="124" x="532" y="322">
+            <tag>HOTEL</tag>
+         </taggedRectangle>
+         <taggedRectangle height="38" width="149" x="379" y="326">
+            <tag>PALACE</tag>
+         </taggedRectangle>
+         <taggedRectangle height="33" width="72" x="728" y="328">
+            <tag>SPA</tag>
+         </taggedRectangle>
+         <taggedRectangle height="33" width="67" x="659" y="328">
+            <tag>AND</tag>
+         </taggedRectangle>
+         <taggedRectangle height="21" width="62" x="133" y="389">
+            <tag>COMFORT</tag>
+         </taggedRectangle>
+         <taggedRectangle height="29" width="84" x="17" y="462">
+            <tag>COMFORT</tag>
+         </taggedRectangle>
+         <taggedRectangle height="21" width="39" x="101" y="468">
+            <tag>INN</tag>
+         </taggedRectangle>
+         <taggedRectangle height="13" width="31" x="149" y="404">
+            <tag>INN</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/08_19.jpg</imageName>
+      <Resolution x="1278" y="876" />
+      <taggedRectangles>
+         <taggedRectangle height="84" width="267" x="289" y="192">
+            <tag>MACYS</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/17_11.jpg</imageName>
+      <Resolution x="1278" y="880" />
+      <taggedRectangles>
+         <taggedRectangle height="100" width="311" x="472" y="357">
+            <tag>MIRAIDO</tag>
+         </taggedRectangle>
+         <taggedRectangle height="80" width="255" x="797" y="370">
+            <tag>VILLAGE</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/07_05.jpg</imageName>
+      <Resolution x="1280" y="1024" />
+      <taggedRectangles>
+         <taggedRectangle height="36" width="137" x="486" y="183">
+            <tag>DOMINO</tag>
+         </taggedRectangle>
+         <taggedRectangle height="51" width="118" x="104" y="199">
+            <tag>BENDERS</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/07_11.jpg</imageName>
+      <Resolution x="1280" y="1024" />
+      <taggedRectangles>
+         <taggedRectangle height="145" width="249" x="481" y="171">
+            <tag>HILL</tag>
+         </taggedRectangle>
+         <taggedRectangle height="166" width="272" x="745" y="150">
+            <tag>INN</tag>
+         </taggedRectangle>
+         <taggedRectangle height="122" width="227" x="231" y="194">
+            <tag>NOB</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/07_00.jpg</imageName>
+      <Resolution x="1280" y="1024" />
+      <taggedRectangles>
+         <taggedRectangle height="51" width="247" x="503" y="368">
+            <tag>BOOKS</tag>
+         </taggedRectangle>
+         <taggedRectangle height="50" width="194" x="484" y="322">
+            <tag>CAPITOL</tag>
+         </taggedRectangle>
+         <taggedRectangle height="50" width="101" x="675" y="319">
+            <tag>HILL</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/14_00.jpg</imageName>
+      <Resolution x="1280" y="876" />
+      <taggedRectangles>
+         <taggedRectangle height="142" width="228" x="345" y="95">
+            <tag>PGE</tag>
+         </taggedRectangle>
+         <taggedRectangle height="53" width="80" x="489" y="662">
+            <tag>PGE</tag>
+         </taggedRectangle>
+         <taggedRectangle height="154" width="368" x="584" y="54">
+            <tag>PARK</tag>
+         </taggedRectangle>
+         <taggedRectangle height="51" width="120" x="574" y="666">
+            <tag>PARK</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/05_09.jpg</imageName>
+      <Resolution x="1278" y="878" />
+      <taggedRectangles>
+         <taggedRectangle height="64" width="144" x="580" y="197">
+            <tag>MARKET</tag>
+         </taggedRectangle>
+         <taggedRectangle height="72" width="138" x="430" y="191">
+            <tag>WORLD</tag>
+         </taggedRectangle>
+         <taggedRectangle height="63" width="238" x="968" y="129">
+            <tag>MICHAEL</tag>
+         </taggedRectangle>
+         <taggedRectangle height="20" width="38" x="983" y="190">
+            <tag>THE</tag>
+         </taggedRectangle>
+         <taggedRectangle height="21" width="51" x="1019" y="191">
+            <tag>ARTS</tag>
+         </taggedRectangle>
+         <taggedRectangle height="18" width="72" x="1083" y="191">
+            <tag>CRAFTS</tag>
+         </taggedRectangle>
+         <taggedRectangle height="32" width="184" x="1044" y="2">
+            <tag>FITNESS</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/16_05.jpg</imageName>
+      <Resolution x="1280" y="800" />
+      <taggedRectangles>
+         <taggedRectangle height="71" width="319" x="514" y="300">
+            <tag>AMERICANIA</tag>
+         </taggedRectangle>
+         <taggedRectangle height="44" width="86" x="367" y="352">
+            <tag>BEST</tag>
+         </taggedRectangle>
+         <taggedRectangle height="50" width="139" x="345" y="382">
+            <tag>WESTERN</tag>
+         </taggedRectangle>
+         <taggedRectangle height="66" width="188" x="580" y="371">
+            <tag>HOTEL</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/06_01.jpg</imageName>
+      <Resolution x="1680" y="1050" />
+      <taggedRectangles>
+         <taggedRectangle height="104" width="202" x="1111" y="340">
+            <tag>CAFE</tag>
+         </taggedRectangle>
+         <taggedRectangle height="117" width="317" x="766" y="320">
+            <tag>GARDEN</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/17_12.jpg</imageName>
+      <Resolution x="1272" y="880" />
+      <taggedRectangles>
+         <taggedRectangle height="74" width="210" x="779" y="387">
+            <tag>MARU</tag>
+         </taggedRectangle>
+         <taggedRectangle height="82" width="232" x="533" y="379">
+            <tag>SUSHI</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/09_05.jpg</imageName>
+      <Resolution x="1280" y="800" />
+      <taggedRectangles>
+         <taggedRectangle height="32" width="181" x="516" y="367">
+            <tag>COMPLEXIONS</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/02_14.jpg</imageName>
+      <Resolution x="1280" y="1024" />
+      <taggedRectangles>
+         <taggedRectangle height="50" width="296" x="493" y="472">
+            <tag>CHIAPPARELLI</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/16_03.jpg</imageName>
+      <Resolution x="1280" y="800" />
+      <taggedRectangles>
+         <taggedRectangle height="33" width="161" x="795" y="253">
+            <tag>WARFIELD</tag>
+         </taggedRectangle>
+         <taggedRectangle height="33" width="163" x="211" y="261">
+            <tag>WARFIELD</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/05_08.jpg</imageName>
+      <Resolution x="1276" y="878" />
+      <taggedRectangles>
+         <taggedRectangle height="26" width="110" x="584" y="380">
+            <tag>CHINATOWN</tag>
+         </taggedRectangle>
+         <taggedRectangle height="16" width="82" x="597" y="400">
+            <tag>HOTEL</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/06_15.jpg</imageName>
+      <Resolution x="1680" y="1050" />
+      <taggedRectangles>
+         <taggedRectangle height="35" width="59" x="753" y="460">
+            <tag>DAY</tag>
+         </taggedRectangle>
+         <taggedRectangle height="44" width="179" x="751" y="419">
+            <tag>PHYSICIANS</tag>
+         </taggedRectangle>
+         <taggedRectangle height="40" width="142" x="806" y="456">
+            <tag>SURGERY</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/15_16.jpg</imageName>
+      <Resolution x="1280" y="1024" />
+      <taggedRectangles>
+         <taggedRectangle height="30" width="89" x="734" y="536">
+            <tag>CENTER</tag>
+         </taggedRectangle>
+         <taggedRectangle height="31" width="78" x="511" y="529">
+            <tag>DIEGO</tag>
+         </taggedRectangle>
+         <taggedRectangle height="33" width="67" x="450" y="522">
+            <tag>SAN</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/15_14.jpg</imageName>
+      <Resolution x="1280" y="1024" />
+      <taggedRectangles>
+         <taggedRectangle height="106" width="279" x="823" y="85">
+            <tag>COMFORT</tag>
+         </taggedRectangle>
+         <taggedRectangle height="55" width="163" x="826" y="734">
+            <tag>GASLAMP</tag>
+         </taggedRectangle>
+         <taggedRectangle height="76" width="146" x="1107" y="122">
+            <tag>INN</tag>
+         </taggedRectangle>
+         <taggedRectangle height="50" width="94" x="937" y="681">
+            <tag>INN</tag>
+         </taggedRectangle>
+         <taggedRectangle height="47" width="157" x="778" y="683">
+            <tag>COMFORT</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/12_19.jpg</imageName>
+      <Resolution x="1024" y="768" />
+      <taggedRectangles>
+         <taggedRectangle height="48" width="200" x="396" y="312">
+            <tag>PLAYERS</tag>
+         </taggedRectangle>
+         <taggedRectangle height="36" width="116" x="189" y="317">
+            <tag>PLAYS</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/08_02.jpg</imageName>
+      <Resolution x="1280" y="880" />
+      <taggedRectangles>
+         <taggedRectangle height="30" width="222" x="411" y="381">
+            <tag>STARBUCKS</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/08_15.jpg</imageName>
+      <Resolution x="1278" y="878" />
+      <taggedRectangles>
+         <taggedRectangle height="50" width="248" x="554" y="241">
+            <tag>FOUR</tag>
+         </taggedRectangle>
+         <taggedRectangle height="58" width="409" x="477" y="280">
+            <tag>SEASONS</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/14_11.jpg</imageName>
+      <Resolution x="1280" y="876" />
+      <taggedRectangles>
+         <taggedRectangle height="75" width="286" x="197" y="182">
+            <tag>OUTDOOR</tag>
+         </taggedRectangle>
+         <taggedRectangle height="70" width="201" x="903" y="231">
+            <tag>OUTDOOR</tag>
+         </taggedRectangle>
+         <taggedRectangle height="64" width="170" x="497" y="204">
+            <tag>STORE</tag>
+         </taggedRectangle>
+         <taggedRectangle height="58" width="122" x="1109" y="257">
+            <tag>STORE</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/13_18.jpg</imageName>
+      <Resolution x="1024" y="768" />
+      <taggedRectangles>
+         <taggedRectangle height="36" width="191" x="156" y="285">
+            <tag>PORTLAND</tag>
+         </taggedRectangle>
+         <taggedRectangle height="27" width="213" x="578" y="290">
+            <tag>RESTAURANT</tag>
+         </taggedRectangle>
+         <taggedRectangle height="35" width="64" x="830" y="282">
+            <tag>BAR</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/06_02.jpg</imageName>
+      <Resolution x="1680" y="1050" />
+      <taggedRectangles>
+         <taggedRectangle height="40" width="76" x="996" y="609">
+            <tag>BAR</tag>
+         </taggedRectangle>
+         <taggedRectangle height="138" width="292" x="448" y="478">
+            <tag>BLUE</tag>
+         </taggedRectangle>
+         <taggedRectangle height="165" width="397" x="734" y="459">
+            <tag>COLLAR</tag>
+         </taggedRectangle>
+         <taggedRectangle height="34" width="51" x="487" y="450">
+            <tag>THE</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/15_01.jpg</imageName>
+      <Resolution x="1280" y="1024" />
+      <taggedRectangles>
+         <taggedRectangle height="36" width="134" x="411" y="250">
+            <tag>EMBASSY</tag>
+         </taggedRectangle>
+         <taggedRectangle height="28" width="105" x="423" y="275">
+            <tag>SUITES</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/14_19.jpg</imageName>
+      <Resolution x="1280" y="880" />
+      <taggedRectangles>
+         <taggedRectangle height="50" width="214" x="876" y="314">
+            <tag>BREW</tag>
+         </taggedRectangle>
+         <taggedRectangle height="68" width="344" x="503" y="313">
+            <tag>LABRADOR</tag>
+         </taggedRectangle>
+         <taggedRectangle height="50" width="209" x="271" y="317">
+            <tag>LUCKY</tag>
+         </taggedRectangle>
+         <taggedRectangle height="79" width="158" x="1101" y="299">
+            <tag>PUB</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/09_17.jpg</imageName>
+      <Resolution x="1280" y="800" />
+      <taggedRectangles>
+         <taggedRectangle height="50" width="273" x="400" y="405">
+            <tag>CROWNE</tag>
+         </taggedRectangle>
+         <taggedRectangle height="62" width="196" x="700" y="391">
+            <tag>PLAZA</tag>
+         </taggedRectangle>
+         <taggedRectangle height="35" width="136" x="452" y="473">
+            <tag>HOTEL</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/13_09.jpg</imageName>
+      <Resolution x="1024" y="768" />
+      <taggedRectangles>
+         <taggedRectangle height="67" width="158" x="474" y="530">
+            <tag>BENTO</tag>
+         </taggedRectangle>
+         <taggedRectangle height="75" width="160" x="302" y="530">
+            <tag>YASDA</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/00_00.jpg</imageName>
+      <Resolution x="1024" y="768" />
+      <taggedRectangles>
+         <taggedRectangle height="92" width="222" x="398" y="257">
+            <tag>DOLL</tag>
+         </taggedRectangle>
+         <taggedRectangle height="95" width="233" x="400" y="350">
+            <tag>HUT</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/16_10.jpg</imageName>
+      <Resolution x="1280" y="800" />
+      <taggedRectangles>
+         <taggedRectangle height="115" width="219" x="578" y="353">
+            <tag>BIERSCH</tag>
+         </taggedRectangle>
+         <taggedRectangle height="50" width="253" x="561" y="502">
+            <tag>BREWERY</tag>
+         </taggedRectangle>
+         <taggedRectangle height="108" width="205" x="584" y="255">
+            <tag>GORDON</tag>
+         </taggedRectangle>
+         <taggedRectangle height="45" width="236" x="569" y="544">
+            <tag>RESTAURANT</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/17_01.jpg</imageName>
+      <Resolution x="1024" y="768" />
+      <taggedRectangles>
+         <taggedRectangle height="80" width="151" x="450" y="470">
+            <tag>DAKAO</tag>
+         </taggedRectangle>
+         <taggedRectangle height="44" width="144" x="450" y="543">
+            <tag>RESTAURANT</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/04_15.jpg</imageName>
+      <Resolution x="1280" y="1024" />
+      <taggedRectangles>
+         <taggedRectangle height="26" width="96" x="722" y="515">
+            <tag>GARIBYAN</tag>
+         </taggedRectangle>
+         <taggedRectangle height="28" width="87" x="637" y="514">
+            <tag>MELANYA</tag>
+         </taggedRectangle>
+         <taggedRectangle height="46" width="132" x="907" y="488">
+            <tag>CLEANING</tag>
+         </taggedRectangle>
+         <taggedRectangle height="44" width="109" x="1036" y="492">
+            <tag>PLACE</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/16_08.jpg</imageName>
+      <Resolution x="1280" y="800" />
+      <taggedRectangles>
+         <taggedRectangle height="175" width="647" x="373" y="319">
+            <tag>BACAR</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/02_11.jpg</imageName>
+      <Resolution x="1366" y="768" />
+      <taggedRectangles>
+         <taggedRectangle height="76" width="216" x="587" y="365">
+            <tag>THAIRISH</tag>
+         </taggedRectangle>
+         <taggedRectangle height="35" width="62" x="611" y="441">
+            <tag>THAI</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/06_14.jpg</imageName>
+      <Resolution x="1680" y="1050" />
+      <taggedRectangles>
+         <taggedRectangle height="65" width="241" x="726" y="343">
+            <tag>LABYRINTH</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/15_18.jpg</imageName>
+      <Resolution x="1280" y="1024" />
+      <taggedRectangles>
+         <taggedRectangle height="48" width="147" x="420" y="447">
+            <tag>SYMPHONY</tag>
+         </taggedRectangle>
+         <taggedRectangle height="40" width="74" x="577" y="443">
+            <tag>HALL</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/01_18.jpg</imageName>
+      <Resolution x="1280" y="800" />
+      <taggedRectangles>
+         <taggedRectangle height="117" width="323" x="436" y="274">
+            <tag>QUALITY</tag>
+         </taggedRectangle>
+         <taggedRectangle height="87" width="212" x="765" y="314">
+            <tag>HOTEL</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/08_10.jpg</imageName>
+      <Resolution x="1278" y="878" />
+      <taggedRectangles>
+         <taggedRectangle height="59" width="380" x="566" y="289">
+            <tag>MCKINNEY</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/10_02.jpg</imageName>
+      <Resolution x="1024" y="768" />
+      <taggedRectangles>
+         <taggedRectangle height="43" width="173" x="496" y="374">
+            <tag>DONUTS</tag>
+         </taggedRectangle>
+         <taggedRectangle height="49" width="168" x="308" y="379">
+            <tag>DUNKIN</tag>
+         </taggedRectangle>
+         <taggedRectangle height="49" width="127" x="471" y="427">
+            <tag>COFFEE</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/07_16.jpg</imageName>
+      <Resolution x="1280" y="1024" />
+      <taggedRectangles>
+         <taggedRectangle height="39" width="85" x="595" y="436">
+            <tag>TRAX</tag>
+         </taggedRectangle>
+         <taggedRectangle height="37" width="72" x="517" y="437">
+            <tag>WAX</tag>
+         </taggedRectangle>
+         <taggedRectangle height="20" width="65" x="929" y="873">
+            <tag>RECORDS</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/09_08.jpg</imageName>
+      <Resolution x="1280" y="800" />
+      <taggedRectangles>
+         <taggedRectangle height="25" width="69" x="726" y="402">
+            <tag>IRVING</tag>
+         </taggedRectangle>
+         <taggedRectangle height="30" width="141" x="584" y="402">
+            <tag>WASHINGTON</tag>
+         </taggedRectangle>
+         <taggedRectangle height="22" width="66" x="648" y="429">
+            <tag>SCHOOL</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/18_14.jpg</imageName>
+      <Resolution x="1280" y="800" />
+      <taggedRectangles>
+         <taggedRectangle height="69" width="117" x="539" y="320">
+            <tag>LOLA</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/16_07.jpg</imageName>
+      <Resolution x="1280" y="800" />
+      <taggedRectangles>
+         <taggedRectangle height="45" width="178" x="556" y="349">
+            <tag>BURMA</tag>
+         </taggedRectangle>
+         <taggedRectangle height="42" width="278" x="750" y="344">
+            <tag>SUPERSTAR</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/18_05.jpg</imageName>
+      <Resolution x="1280" y="800" />
+      <taggedRectangles>
+         <taggedRectangle height="77" width="184" x="484" y="386">
+            <tag>QUINN</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/01_09.jpg</imageName>
+      <Resolution x="1280" y="800" />
+      <taggedRectangles>
+         <taggedRectangle height="138" width="286" x="497" y="288">
+            <tag>NICK</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/03_07.jpg</imageName>
+      <Resolution x="1914" y="898" />
+      <taggedRectangles>
+         <taggedRectangle height="67" width="399" x="528" y="332">
+            <tag>BREWERY</tag>
+         </taggedRectangle>
+         <taggedRectangle height="91" width="357" x="133" y="323">
+            <tag>WALNUT</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/15_07.jpg</imageName>
+      <Resolution x="1024" y="768" />
+      <taggedRectangles>
+         <taggedRectangle height="97" width="193" x="153" y="303">
+            <tag>CROCE</tag>
+         </taggedRectangle>
+         <taggedRectangle height="99" width="362" x="437" y="299">
+            <tag>RESTAURANT</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/05_03.jpg</imageName>
+      <Resolution x="1280" y="876" />
+      <taggedRectangles>
+         <taggedRectangle height="61" width="164" x="745" y="234">
+            <tag>FOODS</tag>
+         </taggedRectangle>
+         <taggedRectangle height="32" width="252" x="604" y="282">
+            <tag>MARKET</tag>
+         </taggedRectangle>
+         <taggedRectangle height="73" width="201" x="543" y="219">
+            <tag>WHOLE</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/02_07.jpg</imageName>
+      <Resolution x="1366" y="768" />
+      <taggedRectangles>
+         <taggedRectangle height="23" width="47" x="592" y="363">
+            <tag>DELICIOUS</tag>
+         </taggedRectangle>
+         <taggedRectangle height="47" width="113" x="534" y="320">
+            <tag>GIGI</tag>
+         </taggedRectangle>
+         <taggedRectangle height="24" width="21" x="575" y="366">
+            <tag>JUST</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/06_06.jpg</imageName>
+      <Resolution x="1114" y="700" />
+      <taggedRectangles>
+         <taggedRectangle height="31" width="53" x="552" y="324">
+            <tag>CENTER</tag>
+         </taggedRectangle>
+         <taggedRectangle height="29" width="75" x="479" y="326">
+            <tag>CITYPLACE</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/02_12.jpg</imageName>
+      <Resolution x="1366" y="768" />
+      <taggedRectangles>
+         <taggedRectangle height="28" width="64" x="220" y="511">
+            <tag>BALTIMORE</tag>
+         </taggedRectangle>
+         <taggedRectangle height="48" width="133" x="523" y="267">
+            <tag>SCORES</tag>
+         </taggedRectangle>
+         <taggedRectangle height="56" width="117" x="196" y="483">
+            <tag>SCORES</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/03_13.jpg</imageName>
+      <Resolution x="1920" y="906" />
+      <taggedRectangles>
+         <taggedRectangle height="78" width="200" x="640" y="343">
+            <tag>DOLAN</tag>
+         </taggedRectangle>
+         <taggedRectangle height="70" width="217" x="984" y="335">
+            <tag>DOLAN</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/18_11.jpg</imageName>
+      <Resolution x="1280" y="800" />
+      <taggedRectangles>
+         <taggedRectangle height="69" width="354" x="200" y="305">
+            <tag>EXECUTIVE</tag>
+         </taggedRectangle>
+         <taggedRectangle height="61" width="204" x="565" y="305">
+            <tag>HOTEL</tag>
+         </taggedRectangle>
+         <taggedRectangle height="69" width="236" x="781" y="296">
+            <tag>PACIFIC</tag>
+         </taggedRectangle>
+         <taggedRectangle height="41" width="75" x="190" y="274">
+            <tag>THE</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/15_13.jpg</imageName>
+      <Resolution x="1280" y="1024" />
+      <taggedRectangles>
+         <taggedRectangle height="47" width="93" x="1071" y="453">
+            <tag>MAN</tag>
+         </taggedRectangle>
+         <taggedRectangle height="49" width="168" x="848" y="456">
+            <tag>MUSEUM</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/15_09.jpg</imageName>
+      <Resolution x="1280" y="1024" />
+      <taggedRectangles>
+         <taggedRectangle height="75" width="248" x="372" y="311">
+            <tag>BAYSIDE</tag>
+         </taggedRectangle>
+         <taggedRectangle height="53" width="83" x="245" y="355">
+            <tag>BEST</tag>
+         </taggedRectangle>
+         <taggedRectangle height="39" width="120" x="227" y="397">
+            <tag>WESTERN</tag>
+         </taggedRectangle>
+         <taggedRectangle height="72" width="114" x="439" y="393">
+            <tag>INN</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/05_07.jpg</imageName>
+      <Resolution x="1278" y="878" />
+      <taggedRectangles>
+         <taggedRectangle height="49" width="182" x="613" y="244">
+            <tag>GAMESTOP</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/11_11.jpg</imageName>
+      <Resolution x="1280" y="800" />
+      <taggedRectangles>
+         <taggedRectangle height="41" width="57" x="660" y="332">
+            <tag>ARTS</tag>
+         </taggedRectangle>
+         <taggedRectangle height="38" width="55" x="645" y="294">
+            <tag>BOB</tag>
+         </taggedRectangle>
+         <taggedRectangle height="38" width="68" x="700" y="294">
+            <tag>CARR</tag>
+         </taggedRectangle>
+         <taggedRectangle height="41" width="95" x="722" y="332">
+            <tag>CENTER</tag>
+         </taggedRectangle>
+         <taggedRectangle height="36" width="131" x="528" y="331">
+            <tag>PERFORMING</tag>
+         </taggedRectangle>
+         <taggedRectangle height="23" width="67" x="521" y="391">
+            <tag>ORLANDO</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+   <image>
+      <imageName>img/04_16.jpg</imageName>
+      <Resolution x="1280" y="1024" />
+      <taggedRectangles>
+         <taggedRectangle height="61" width="281" x="467" y="497">
+            <tag>BLOCKBUSTER</tag>
+         </taggedRectangle>
+         <taggedRectangle height="58" width="114" x="750" y="497">
+            <tag>VIDEO</tag>
+         </taggedRectangle>
+      </taggedRectangles>
+   </image>
+</tagset>

@@ -3,9 +3,9 @@ import tensorflow as tf
 from tensorflow.keras import layers
 from tensorflow.keras import backend as K
 from tensorflow.keras.models import Model, load_model
-from tensorflow.keras.layers import Input, Conv2D, MaxPooling2D, BatchNormalization, Flatten, Dense, Dropout, Reshape, Bidirectional, LSTM, Activation
-from keras.optimizers import Adam
-
+from tensorflow.keras.layers import Input, Conv2D, MaxPooling2D, BatchNormalization, Flatten, Dense, Dropout, Reshape, Bidirectional, LSTM, Activation, TimeDistributed
+from tensorflow.keras.optimizers import Adam
+import numpy as np
 
 def convolution_block(x,
                       filters,
@@ -57,28 +57,68 @@ class CTCLayer( layers.Layer ):
         # Compute the training-time loss value and add it to the layer using `self.add_loss()`.
         batch_len = tf.cast( tf.shape(y_true)[0], dtype='int64' )
         input_length = tf.cast( tf.shape(y_pred)[1], dtype='int64' )
-        label_length = tf.cast( tf.shape(y_true)[1], dtype='int64' )
+        label_length = y_true.numpy()[:, -1]
         
         input_length = input_length*tf.ones( shape=(batch_len,1), dtype='int64' )
-        label_length = label_length*tf.ones( shape=(batch_len,1), dtype='int64' )
+        #label_length = label_length*tf.ones( shape=(batch_len,1), dtype='int64' )
 
-        loss = self.loss_fn( y_true, y_pred, input_length, label_length )
+        loss = self.loss_fn( y_true[:, :-1], y_pred, input_length, label_length )
         self.add_loss(loss)
 
         # At test time, just return the computed predictions
         return y_pred
 
+def CTCLoss(y_true, y_pred):
+    # Compute the training-time loss value
+    batch_len = tf.cast(tf.shape(y_true)[0], dtype="int64")
+    input_length = tf.cast(tf.shape(y_pred)[1], dtype="int64")
+    label_length = y_true.numpy()[:, -1]
+
+    input_length = input_length * tf.ones(shape=(batch_len, 1), dtype="int64")
+    
+    loss = K.ctc_batch_cost(y_true[:, :-1], y_pred, input_length, label_length)
+    return loss
+
+
+def custom_ctc():
+    """Custom CTC loss implementation"""
+
+    def loss(y_true, y_pred):
+        """Why you make it so complicated?
+        
+        Since the prediction from models is (batch, timedistdim, tot_num_uniq_chars)
+        and the true target is labels (batch_size,1) but the ctc loss need some
+        additional information of different sizes. And the inputs to loss y_true,
+        y_pred must be both same dimensions because of keras.
+        
+        So I have packed the needed information inside the y_true and just made it
+        to a matching dimension with y_true"""
+
+        batch_labels = y_true[:, :-2]
+        label_length = y_true[:, -2]
+        input_length = y_true[:, -1]
+        
+        
+        #reshape for the loss, add that extra meaningless dimension
+        label_length = tf.expand_dims(label_length, -1)
+        input_length = tf.expand_dims(input_length, -1)
+
+
+        return K.ctc_batch_cost(batch_labels, y_pred, input_length, label_length)
+    return loss
+
+
 def build_and_compile_model(input_shape, len_characters, opt=Adam()):
     imgs = Input(shape=input_shape)
-    labels = Input(shape=(None,), dtype='float32', name="Label" )
+    #labels = Input(shape=(None,))
 
-    x = convolution_block(imgs, 64, Activation('relu'), use_pooling=True)
-    x = convolution_block(x, 128, Activation('relu'), use_pooling=True)
-    x = convolution_block(x, 256, Activation('relu'))
-    x = convolution_block(x, 256, Activation('relu'), use_pooling=True, pool_size=(1, 2))
-    x = convolution_block(x, 512, Activation('relu'), use_batchnorm=True)
-    x = convolution_block(x, 512, Activation('relu'), use_batchnorm=True, use_pooling=True, pool_size=(1, 2))
-    x = convolution_block(x, 512, Activation('relu'), kernel_size=(2, 2), padding="valid")
+    x, _ = convolution_block(imgs, 64, Activation('relu'), use_pooling=True)
+    x, _ = convolution_block(x, 128, Activation('relu'), use_pooling=True)
+    x, _ = convolution_block(x, 256, Activation('relu'))
+    x, _ = convolution_block(x, 256, Activation('relu'), use_pooling=True, pool_size=(1, 2))
+    x, _ = convolution_block(x, 512, Activation('relu'), use_batchnorm=True)
+    x, _ = convolution_block(x, 512, Activation('relu'), use_batchnorm=True, use_pooling=True, pool_size=(1, 2))
+    x, _ = convolution_block(x, 512, Activation('relu'), kernel_size=(2, 2), padding="valid")
     
     conv_shape = x.get_shape()
 
@@ -88,13 +128,40 @@ def build_and_compile_model(input_shape, len_characters, opt=Adam()):
     x = Bidirectional(LSTM(256, return_sequences=True, recurrent_dropout=0))(x)
     x = Bidirectional(LSTM(256, return_sequences=True, recurrent_dropout=0))(x)
 
-    x = Dense(len_characters+1, activation='softmax')(x)
+    output = Dense(len_characters+1, activation='softmax')(x)
 
-    output = CTCLayer()(labels, x)
+    #output = CTCLayer()(labels, x)
 
-    model = Model(inputs=[imgs, labels], outputs=[output])
+    model = Model(inputs=imgs, outputs=[output])
 
-    model.compile(optimizer=opt)
+    model.compile(optimizer=opt, loss=custom_ctc())
+
+    return model
+
+def build_and_compile_model(input_shape, len_characters, opt=Adam()):
+    imgs = Input(shape=input_shape)
+    #labels = Input(shape=(None,))
+
+    x1, _ = convolution_block(imgs, 8, Activation('relu'))
+    x1, _ = convolution_block(x1, 16, Activation('relu'))
+    
+    x2, _ = convolution_block(x1, 32, Activation('relu'))
+    x2, _ = convolution_block(x2, 64, Activation('relu'))
+    
+    tdist = TimeDistributed(Flatten())(x2)
+    
+    x = Dense(128, activation="relu", use_bias=True)(tdist)
+
+    x = Bidirectional(LSTM(64, return_sequences=True, recurrent_dropout=0))(x)
+    x = Bidirectional(LSTM(64, return_sequences=True, recurrent_dropout=0))(x)
+
+    output = Dense(len_characters+1, activation='softmax')(x)
+
+    #output = CTCLayer()(labels, x)
+
+    model = Model(inputs=imgs, outputs=[output])
+
+    model.compile(optimizer=opt, loss=custom_ctc())
 
     return model
     

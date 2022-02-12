@@ -13,13 +13,14 @@ def convolution_block(x,
                       kernel_size=(3, 3),
                       strides=(1, 1),
                       padding="same",
+                      pooling_padding="valid",
                       use_bias=True,
                       use_batchnorm=False,
                       use_dropout=False,
                       drop_value=0.2,
                       use_pooling=False,
                       pool_size=(2, 2),
-                      pool_stride = (2, 2),
+                      pool_stride = None,
                       conv_name = None,
                       batch_name = None
                       ):
@@ -40,7 +41,7 @@ def convolution_block(x,
 
     pool = x
     if use_pooling:
-        pool = layers.MaxPooling2D(pool_size=pool_size, strides=pool_stride, data_format='channels_last')(pool)
+        pool = layers.MaxPooling2D(pool_size=pool_size, strides=pool_stride, data_format='channels_last', padding=pooling_padding)(pool)
 
     if use_dropout:
         pool = layers.Dropout(drop_value)(pool)
@@ -148,7 +149,7 @@ def build_and_compile_model(input_shape, len_characters, opt=Adam()):
     x, _ = convolution_block(x, 128, Activation('relu'))
     x, p3 = convolution_block(x, 128, Activation('relu'), use_pooling=True, pool_size=(1, 2))
     x, p4 = convolution_block(p3, 256, Activation('relu'), use_batchnorm=True, use_pooling=True, pool_size=(1, 2))
-    x, _ = convolution_block(p4, 256, Activation('relu'), kernel_size=(2, 2), padding="valid")
+    x, _ = convolution_block(p4, 256, Activation('relu'), kernel_size=(2, 2))
     
     tdist = TimeDistributed(Flatten())(x)
     

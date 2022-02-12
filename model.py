@@ -108,7 +108,7 @@ def custom_ctc():
     return loss
 
 
-def build_and_compile_model(input_shape, len_characters, opt=Adam()):
+def build_and_compile_model2(input_shape, len_characters, opt=Adam()):
     imgs = Input(shape=input_shape)
     #labels = Input(shape=(None,))
 
@@ -142,15 +142,17 @@ def build_and_compile_model(input_shape, len_characters, opt=Adam()):
     imgs = Input(shape=input_shape)
     #labels = Input(shape=(None,))
 
-    x1, _ = convolution_block(imgs, 8, Activation('relu'))
-    x1, _ = convolution_block(x1, 16, Activation('relu'))
+    x, p1 = convolution_block(imgs, 32, Activation('relu'), use_pooling=True, pool_size=(1, 2))
+    x, p2 = convolution_block(p1, 64, Activation('relu'), use_pooling=True, pool_size=(1, 2))
+    x, _ = convolution_block(p2, 128, Activation('relu'))
+    x, _ = convolution_block(x, 128, Activation('relu'))
+    x, p3 = convolution_block(x, 128, Activation('relu'), use_pooling=True, pool_size=(1, 2))
+    x, p4 = convolution_block(p3, 256, Activation('relu'), use_batchnorm=True, use_pooling=True, pool_size=(1, 2))
+    x, _ = convolution_block(p4, 256, Activation('relu'), kernel_size=(2, 2), padding="valid")
     
-    x2, _ = convolution_block(x1, 32, Activation('relu'))
-    x2, _ = convolution_block(x2, 64, Activation('relu'))
+    tdist = TimeDistributed(Flatten())(x)
     
-    tdist = TimeDistributed(Flatten())(x2)
-    
-    x = Dense(128, activation="relu", use_bias=True)(tdist)
+    x = Dense(64, activation="relu", use_bias=True)(tdist)
 
     x = Bidirectional(LSTM(64, return_sequences=True, recurrent_dropout=0))(x)
     x = Bidirectional(LSTM(64, return_sequences=True, recurrent_dropout=0))(x)

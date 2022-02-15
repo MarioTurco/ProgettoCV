@@ -1,3 +1,5 @@
 #Ignore Datasets folder
 /Datasets
 /venv
+/weights
+/history

@@ -109,7 +109,7 @@ def custom_ctc():
     return loss
 
 
-def build_and_compile_model2(input_shape, len_characters, opt=Adam()):
+def build_and_compile_model_original(input_shape, len_characters, opt=Adam()):
     imgs = Input(shape=input_shape)
     #labels = Input(shape=(None,))
 
@@ -167,4 +167,124 @@ def build_and_compile_model(input_shape, len_characters, opt=Adam()):
     model.compile(optimizer=opt, loss=custom_ctc())
 
     return model
+
+
+def build_and_compile_model_v3(input_shape, len_characters, opt=Adam()):
+    imgs = Input(shape=input_shape)
+    #labels = Input(shape=(None,))
+
+    x, p1 = convolution_block(imgs, 32, Activation('relu'), use_pooling=True, pool_size=(1, 2))
+    x, p2 = convolution_block(p1, 64, Activation('relu'), use_pooling=True, pool_size=(1, 2))
+    x, _ = convolution_block(x, 128, Activation('relu'))
+    x, p3 = convolution_block(x, 128, Activation('relu'), use_pooling=True, pool_size=(1, 2))
+    x, _ = convolution_block(p3, 128, Activation('relu'))
+    x, p4 = convolution_block(p3, 256, Activation('relu'), use_batchnorm=True, use_pooling=True, pool_size=(1, 2))
+    x, _ = convolution_block(p4, 256, Activation('relu'), kernel_size=(2, 2))
     
+    tdist = TimeDistributed(Flatten())(x)
+    
+    x = Dense(64, activation="relu", use_bias=True)(tdist)
+    x = Dropout( 0.25)(x)
+    
+    x = Bidirectional(LSTM(64, return_sequences=True, recurrent_dropout=0))(x)
+    x = Bidirectional(LSTM(64, return_sequences=True, recurrent_dropout=0))(x)
+
+    output = Dense(len_characters+1, activation='softmax')(x)
+
+    #output = CTCLayer()(labels, x)
+
+    model = Model(inputs=imgs, outputs=[output])
+
+    model.compile(optimizer=opt, loss=custom_ctc())
+
+    return model
+
+def build_and_compile_model_v4(input_shape, len_characters, opt=Adam()):
+    imgs = Input(shape=input_shape)
+    #labels = Input(shape=(None,))
+
+    x, p1 = convolution_block(imgs, 64, Activation('relu'), use_pooling=True, pool_size=(1, 2))
+    x, p2 = convolution_block(p1, 128, Activation('relu'), use_pooling=True, pool_size=(1, 2))
+    x, _ = convolution_block(x, 256, Activation('relu'))
+    x, p3 = convolution_block(x, 256, Activation('relu'), use_pooling=True, pool_size=(1, 2))
+    x, _ = convolution_block(p3, 256, Activation('relu'))
+    x, p4 = convolution_block(p3, 512, Activation('relu'), use_batchnorm=True, use_pooling=True, pool_size=(1, 2))
+    x, _ = convolution_block(p4, 512, Activation('relu'), kernel_size=(2, 2))
+    
+    tdist = TimeDistributed(Flatten())(x)
+    
+    x = Dense(64, activation="relu", use_bias=True)(tdist)
+    x = Dropout( 0.25)(x)
+    
+    x = Bidirectional(LSTM(64, return_sequences=True, recurrent_dropout=0))(x)
+    x = Bidirectional(LSTM(64, return_sequences=True, recurrent_dropout=0))(x)
+
+    output = Dense(len_characters+1, activation='softmax')(x)
+
+    #output = CTCLayer()(labels, x)
+
+    model = Model(inputs=imgs, outputs=[output])
+
+    model.compile(optimizer=opt, loss=custom_ctc())
+
+    return model
+
+def build_and_compile_model_v5(input_shape, len_characters, opt=Adam()):
+    imgs = Input(shape=input_shape)
+    #labels = Input(shape=(None,))
+
+    x, p1 = convolution_block(imgs, 32, Activation('relu'), use_pooling=True, pool_size=(1, 2))
+    x, p2 = convolution_block(p1, 64, Activation('relu'), use_pooling=True, pool_size=(1, 2))
+    x, _ = convolution_block(x, 128, Activation('relu'))
+    x, p3 = convolution_block(x, 128, Activation('relu'), use_pooling=True, pool_size=(1, 2))
+    x, _ = convolution_block(p3, 128, Activation('relu'))
+    x, p4 = convolution_block(p3, 256, Activation('relu'), use_batchnorm=True, use_pooling=True, pool_size=(1, 2))
+    x, _ = convolution_block(p4, 256, Activation('relu'), kernel_size=(2, 2))
+    
+    tdist = TimeDistributed(Flatten())(x)
+    
+    x = Dense(64, activation="relu", use_bias=True)(tdist)
+    x = Dropout( 0.25)(x)
+    
+    x = Bidirectional(LSTM(128, return_sequences=True, recurrent_dropout=0, dropout=0.25))(x)
+    x = Bidirectional(LSTM(128, return_sequences=True, recurrent_dropout=0, dropout=0.25))(x)
+
+    output = Dense(len_characters+1, activation='softmax')(x)
+
+    #output = CTCLayer()(labels, x)
+
+    model = Model(inputs=imgs, outputs=[output])
+
+    model.compile(optimizer=opt, loss=custom_ctc())
+
+    return model
+
+def build_and_compile_model_v6(input_shape, len_characters, opt=Adam()):
+    imgs = Input(shape=input_shape)
+    #labels = Input(shape=(None,))
+
+    x, p1 = convolution_block(imgs, 64, Activation('relu'), use_pooling=True, pool_size=(1, 2))
+    x, p2 = convolution_block(p1, 128, Activation('relu'), use_pooling=True, pool_size=(1, 2))
+    x, _ = convolution_block(x, 256, Activation('relu'))
+    x, p3 = convolution_block(x, 256, Activation('relu'), use_pooling=True, pool_size=(1, 2))
+    x, _ = convolution_block(p3, 256, Activation('relu'))
+    x, p4 = convolution_block(p3, 512, Activation('relu'), use_batchnorm=True, use_pooling=True, pool_size=(1, 2))
+    x, _ = convolution_block(p4, 512, Activation('relu'), kernel_size=(2, 2))
+    
+    tdist = TimeDistributed(Flatten())(x)
+    
+    x = Dense(64, activation="relu", use_bias=True)(tdist)
+    x = Dropout( 0.25)(x)
+    
+    x = Bidirectional(LSTM(128, return_sequences=True, recurrent_dropout=0))(x)
+    x = Bidirectional(LSTM(128, return_sequences=True, recurrent_dropout=0))(x)
+
+    output = Dense(len_characters+1, activation='softmax')(x)
+
+    #output = CTCLayer()(labels, x)
+
+    model = Model(inputs=imgs, outputs=[output])
+
+    model.compile(optimizer=opt, loss=custom_ctc())
+
+    return model

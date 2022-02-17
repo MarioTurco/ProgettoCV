@@ -455,10 +455,10 @@ def build_and_compile_model_v9_5(input_shape, len_characters, opt=Adam()):
     _, p2 = convolution_block(x2, 64, Activation('relu'), use_batchnorm=True, use_pooling=True, pool_size=(1, 2))
     x3, _ = convolution_block(p2, 128, Activation('relu'), use_batchnorm=True)
     _, p3 = convolution_block(x3, 128, Activation('relu'), use_batchnorm=True, use_pooling=True, pool_size=(1, 2))
-    x3, _ = convolution_block(p2, 256, Activation('relu'), use_batchnorm=True)
-    _, p3 = convolution_block(x3, 256, Activation('relu'), use_batchnorm=True, use_pooling=True, pool_size=(1, 2))
+    x4, _ = convolution_block(p3, 256, Activation('relu'), use_batchnorm=True)
+    _, p4 = convolution_block(x4, 256, Activation('relu'), use_batchnorm=True, use_pooling=True, pool_size=(1, 2))
     
-    tdist = TimeDistributed(Flatten())(p3)
+    tdist = TimeDistributed(Flatten())(p4)
     
     x = Dense(128, activation="relu", use_bias=True)(tdist)
     x = Bidirectional(LSTM(64, return_sequences=True, recurrent_dropout=0))(x)
@@ -481,10 +481,10 @@ def build_and_compile_model_v9_6(input_shape, len_characters, opt=Adam()):
     _, p2 = convolution_block(x2, 128, Activation('relu'), use_batchnorm=True, use_pooling=True, pool_size=(1, 2))
     x3, _ = convolution_block(p2, 256, Activation('relu'), use_batchnorm=True)
     _, p3 = convolution_block(x3, 256, Activation('relu'), use_batchnorm=True, use_pooling=True, pool_size=(1, 2))
-    x3, _ = convolution_block(p2, 512, Activation('relu'), use_batchnorm=True)
-    _, p3 = convolution_block(x3, 512, Activation('relu'), use_batchnorm=True, use_pooling=True, pool_size=(1, 2))
+    x4, _ = convolution_block(p3, 512, Activation('relu'), use_batchnorm=True)
+    _, p4 = convolution_block(x4, 512, Activation('relu'), use_batchnorm=True, use_pooling=True, pool_size=(1, 2))
     
-    tdist = TimeDistributed(Flatten())(p3)
+    tdist = TimeDistributed(Flatten())(p4)
     
     x = Dense(128, activation="relu", use_bias=True)(tdist)
     x = Dropout(0.25)(x)
@@ -509,12 +509,12 @@ def build_and_compile_model_v9_7(input_shape, len_characters, opt=Adam()):
     x3, _ = convolution_block(p2, 256, Activation('relu'), use_batchnorm=True)
     x3, _ = convolution_block(x3, 256, Activation('relu'), use_batchnorm=True)
     _, p3 = convolution_block(x3, 256, Activation('relu'), use_batchnorm=True, use_pooling=True, pool_size=(1, 2))
-    x3, _ = convolution_block(p2, 512, Activation('relu'), use_batchnorm=True)
-    _, p3 = convolution_block(x3, 512, Activation('relu'), use_batchnorm=True, use_pooling=True, pool_size=(1, 2))
+    x4, _ = convolution_block(p3, 512, Activation('relu'), use_batchnorm=True)
+    _, p4 = convolution_block(x4, 512, Activation('relu'), use_batchnorm=True, use_pooling=True, pool_size=(1, 2))
     
-    tdist = TimeDistributed(Flatten())(p3)
+    tdist = TimeDistributed(Flatten())(p4)
     
-    x = Dense(128, activation="relu", use_bias=True)(tdist)
+    x = Dense(128, activation="relu")(tdist)
     x = Dropout(0.25)(x)
     x = Bidirectional(LSTM(64, return_sequences=True, recurrent_dropout=0))(x)
     x = Bidirectional(LSTM(128, return_sequences=True, recurrent_dropout=0))(x)
@@ -531,14 +531,15 @@ def build_and_compile_model_v9_8(input_shape, len_characters, opt=Adam()):
     imgs = Input(shape=input_shape)
     
     x1, _ = convolution_block(imgs, 64, Activation('relu'), use_batchnorm=True)
+    x1, _ = convolution_block(x1, 64, Activation('relu'), use_batchnorm=True)
     _, p1 = convolution_block(x1, 64, Activation('relu'), use_batchnorm=True, use_pooling=True, pool_size=(1, 2))
     x2, _ = convolution_block(p1, 128, Activation('relu'), use_batchnorm=True)
     _, p2 = convolution_block(x2, 128, Activation('relu'), use_batchnorm=True, use_pooling=True, pool_size=(1, 2))
     x3, _ = convolution_block(p2, 256, Activation('relu'), use_batchnorm=True)
     x3, _ = convolution_block(x3, 256, Activation('relu'), use_batchnorm=True)
     _, p3 = convolution_block(x3, 256, Activation('relu'), use_batchnorm=True, use_pooling=True, pool_size=(1, 2))
-    x3, _ = convolution_block(p2, 512, Activation('relu'), use_batchnorm=True)
-    _, p3 = convolution_block(x3, 1024, Activation('relu'), use_batchnorm=True, use_pooling=True, pool_size=(1, 2))
+    x3, _ = convolution_block(p3, 512, Activation('relu'), use_batchnorm=True)
+    _, p3 = convolution_block(x3, 512, Activation('relu'), use_batchnorm=True, use_pooling=True, pool_size=(1, 2))
     
     tdist = TimeDistributed(Flatten())(p3)
     
@@ -653,21 +654,21 @@ def build_and_compile_model_v10_4(input_shape, len_characters, opt=Adam()):
 
     return model
 
-def build_and_compile_model_v10_5(input_shape, len_characters, opt=Adam()):
+def build_and_compile_model_v10_5(input_shape, len_characters, opt=Adam(), metrics=None):
     imgs = Input(shape=input_shape)
     
     x1, _ = convolution_block(imgs, 16, Activation('relu'), use_batchnorm=True)
     x2, _ = convolution_block(x1, 32, Activation('relu'), use_batchnorm=True)
     x3, _ = convolution_block(x2, 64, Activation('relu'), use_batchnorm=True)
-    x4, _ = convolution_block(x3, 128, Activation('relu'), use_batchnorm=True)
-    x5, _ = convolution_block(x4, 256, Activation('relu'), use_batchnorm=True)
+    #x4, _ = convolution_block(x3, 128, Activation('relu'), use_batchnorm=True)
+    #x5, _ = convolution_block(x4, 256, Activation('relu'), use_batchnorm=True)
     
-    combined = Concatenate()([x1, x2, x3, x4, x5])
+    combined = Concatenate()([x1, x2, x3])
     combined, _ = convolution_block(combined, 8, Activation('relu'), use_batchnorm=True)
     
     tdist = TimeDistributed(Flatten())(combined)
     
-    x = Dense(128, activation="relu", use_bias=True)(tdist)
+    x = Dense(64, activation="relu")(tdist)
     x = Bidirectional(LSTM(64, return_sequences=True, recurrent_dropout=0))(x)
     x = Bidirectional(LSTM(128, return_sequences=True, recurrent_dropout=0))(x)
     
@@ -675,7 +676,7 @@ def build_and_compile_model_v10_5(input_shape, len_characters, opt=Adam()):
 
     model = Model(inputs=imgs, outputs=[output])
 
-    model.compile(optimizer=opt, loss=custom_ctc())
+    model.compile(optimizer=opt, loss=custom_ctc(), metrics=metrics)
 
     return model
 

@@ -596,20 +596,20 @@ def build_and_compile_model_v10(input_shape, len_characters, opt=Adam()):
 def build_and_compile_model_v10_2(input_shape, len_characters, opt=Adam()):
     imgs = Input(shape=input_shape)
     
-    x1, _ = convolution_block(imgs, 16, Activation('relu'), use_batchnorm=True)
-    x2, _ = convolution_block(x1, 32, Activation('relu'), use_batchnorm=True)
-    x3, _ = convolution_block(x2, 64, Activation('relu'), use_batchnorm=True)
-    x4, _ = convolution_block(x3, 128, Activation('relu'), use_batchnorm=True)
+    x1, _ = convolution_block(imgs, 8, Activation('relu'), use_l2_reg=True)
+    x2, _ = convolution_block(x1, 16, Activation('relu'), use_l2_reg=True)
+    x3, _ = convolution_block(x2, 32, Activation('relu'), use_batchnorm=True, use_l2_reg=True)
+    x4, _ = convolution_block(x3, 64, Activation('relu'), use_batchnorm=True, use_l2_reg=True)
     
     combined = Concatenate()([x1, x2, x3, x4])
     
     tdist = TimeDistributed(Flatten())(combined)
     
     x = Dense(128, activation="relu", use_bias=True)(tdist)
-    x = Bidirectional(LSTM(128, return_sequences=True, recurrent_dropout=0))(x)
-    x = Bidirectional(LSTM(128, return_sequences=True, recurrent_dropout=0))(x)
+    x = Bidirectional(LSTM(64, return_sequences=True, recurrent_dropout=0))(x)
+    x = Bidirectional(LSTM(64, return_sequences=True, recurrent_dropout=0))(x)
     
-    output = Dense(len_characters+1, activation='softmax')(x)
+    output = Dense(len_characters+1, activation='softmax', use_bias=True)(x)
 
     model = Model(inputs=imgs, outputs=[output])
 
